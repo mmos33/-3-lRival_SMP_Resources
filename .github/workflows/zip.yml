@@ -1,0 +1,9 @@
+name: Make Resource Pack
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zip Files
+        run: zip -r resourcepack.zip assets pack.mcmeta pack.png
