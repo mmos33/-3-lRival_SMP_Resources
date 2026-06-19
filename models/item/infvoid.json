@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "item/infvoid",
+		"2": "item/infvoid",
+		"particle": "item/infvoid"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, -16],
+			"to": [-15, 32, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 5]},
+			"faces": {
+				"north": {"uv": [20.48, 0, 20.90667, 20.37811], "texture": "#0"},
+				"east": {"uv": [0, 0, 6, 6], "texture": "#2"},
+				"south": {"uv": [20.48, 20.37811, 20.90667, 40.75622], "texture": "#0"},
+				"west": {"uv": [0, 20.37811, 20.48, 40.75622], "texture": "#0"},
+				"up": {"uv": [21.33333, 20.37811, 20.90667, 0], "texture": "#0"},
+				"down": {"uv": [21.33333, 20.37811, 20.90667, 40.75622], "texture": "#0"}
+			}
+		}
+	]
+}
